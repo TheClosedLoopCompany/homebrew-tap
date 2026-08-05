@@ -16,7 +16,7 @@ cask "listenr" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Listenr.app"
   # The read-only CLI + MCP server bundled inside the app.
