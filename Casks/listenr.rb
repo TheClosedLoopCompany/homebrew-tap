@@ -1,9 +1,9 @@
 # Template for the Homebrew cask published to TheClosedLoopCompany/homebrew-tap.
-# Scripts/release.sh substitutes 0.14.1 and 8096c41a4cc7e943b19a612f691843370c14e5c4c57527de3120ffa995655076 and pushes the
+# Scripts/release.sh substitutes 0.14.2 and 7d34d70230bbf3bd09c1ddf12845b53eb796ada48ea21669e4c295c48b941f82 and pushes the
 # result as Casks/listenr.rb — edit THIS file, not the tap copy.
 cask "listenr" do
-  version "0.14.1"
-  sha256 "8096c41a4cc7e943b19a612f691843370c14e5c4c57527de3120ffa995655076"
+  version "0.14.2"
+  sha256 "7d34d70230bbf3bd09c1ddf12845b53eb796ada48ea21669e4c295c48b941f82"
 
   url "https://github.com/TheClosedLoopCompany/listenr-releases/releases/download/v#{version}/Listenr-#{version}.zip"
   name "Listenr"
